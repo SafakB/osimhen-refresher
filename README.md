@@ -1,6 +1,12 @@
+
+
 # 💛❤️ Osimhen Refresher 💛❤️
 
-Windows için geliştirilmiş Galatasaray temalı otomatik tarayıcı yenileme aracı. Açık olan tarayıcı sayfalarını belirli aralıklarla otomatik olarak yeniler.
+Oshimen transferi için merak ettiğiniz sayfayı yenileme aracı. 
+@emanuelicardi46 anısına....
+
+<img width="787" height="825" alt="image" src="https://github.com/user-attachments/assets/cb59c215-bea5-4266-b9a0-5cc475353c1e" />
+
 
 ## ✨ Özellikler
 
