@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oshimen Refresher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>💛❤️ Osimhen Refresher 💛❤️</h1>
+            <p>💛❤️ Transfer için yenileme aracı 💛❤️</p>
+        </header>
+
+        <main>
+            <div class="control-panel">
+                <div class="input-group">
+                    <label for="interval">Yenileme Aralığı (saniye):</label>
+                    <input type="number" id="interval" value="30" min="1" max="3600">
+                </div>
+
+                <div class="button-group">
+                    <button id="startBtn" class="btn btn-primary">
+                        <span class="icon">💛</span>
+                        Başlat
+                    </button>
+                    <button id="stopBtn" class="btn btn-secondary" disabled>
+                        <span class="icon">❤️</span>
+                        Durdur
+                    </button>
+                    <button id="closeBrowserBtn" class="btn btn-danger">
+                        <span class="icon">❌</span>
+                        Tarayıcıyı Kapat
+                    </button>
+                </div>
+            </div>
+
+            <div class="status-panel">
+                <div class="status-item">
+                    <span class="label">Durum:</span>
+                    <span id="status" class="value">Hazır</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">Tarayıcı:</span>
+                    <span id="browserStatus" class="value">Kapalı</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">Son Yenileme:</span>
+                    <span id="lastRefresh" class="value">-</span>
+                </div>
+            </div>
+
+            <div class="log-panel">
+                <h3>💛❤️ İşlem Geçmişi 💛❤️</h3>
+                <div id="logContainer" class="log-container">
+                    <div class="log-entry">💛❤️ Uygulama başlatıldı 💛❤️</div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>💛❤️ İpucu: Tarayıcıyı açın ve istediğiniz sayfaya gidin, sonra yenilemeyi başlatın. 💛❤️</p>
+        </footer>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>
